@@ -1,0 +1,23 @@
+{
+  "name": "DJ Wilmer ",
+  "short_name": "DJ Wilmer",
+  "description": "Lo mejor de la música 24/7 con DJ Wilmer",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#009900",
+  "theme_color": "#009900",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png
+",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png
+",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
