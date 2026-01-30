@@ -95,8 +95,8 @@
 }
 
     .mensaje-secundario {
-        font-size: 1.8em; /* DJ Gato más grande */
-        font-weight: 900; /* DJ Gato mucho más gruesa */
+        font-size: 1.8em; /* DJ Wilmer más grande */
+        font-weight: 900; /* DJ Wilmer mucho más gruesa */
         color: white; /* Celeste igual al botón */
         margin-top: 0.2em;
         line-height: 1;
@@ -853,7 +853,7 @@ video { object-fit: cover; transform: scale(1.25); transition: transform 0.3s ea
 <body>
 <div class="web-side-panel" id="webSidePanel">
 <div class="web-side-close-layer" id="webSideCloseLayer"></div>
-<iframe allow="autoplay" allowtransparency="yes" frameborder="0" height="450" marginheight="0" marginwidth="0" scrolling="auto" src="https://lachizzma.com/radiosonline" width="100%"></iframe>
+<iframe allow="autoplay" allowtransparency="yes" frameborder="0" height="450" marginheight="0" marginwidth="0" scrolling="auto" src="https://micanal.ovh/livestreams/82.Y5V0JHNSYGDA.m3u8" width="100%"></iframe>
 </div>
 <div class="web-side-overlay" id="webSideOverlay"></div>
 <div class="chat-modal" id="chatModal">
@@ -1242,7 +1242,7 @@ function abrirModalTV() {
 
     // Video
     
-const video = document.createElement('video');
+const video = document.createElement('https://micanal.ovh/livestreams/82.Y5V0JHNSYGDA.m3u8');
 Object.assign(video.style, {
     width: '100%',
     height: '100%',
@@ -1331,10 +1331,10 @@ modal.appendChild(redesWrapper);
 
     if (Hls.isSupported()) {
         const hls = new Hls();
-        hls.loadSource('https://vs20.live.opencaster.com/incatv_6539e3fe/index.m3u8');
+        hls.loadSource('https://micanal.ovh/livestreams/82.Y5V0JHNSYGDA.m3u8');
         hls.attachMedia(video);
     } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-        video.src = 'https://vs20.live.opencaster.com/incatv_6539e3fe/index.m3u8';
+        video.src = 'https://micanal.ovh/livestreams/82.Y5V0JHNSYGDA.m3u8';
     }
 
     // Cerrar modal
@@ -1688,7 +1688,7 @@ border-radius: 30px;
 font-size: 1em;
 cursor: pointer;
 box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-z-index: 99999;">📲 Instalar App</button>
+z-index: 99999;">📲 🖥️ 💻Instalar App</button>
 
 <script>
 let deferredPrompt;
